@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the tablinks */
+.tablink {
+    background-color: #555;
+    color: white;
+    padding: 12px 40px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tabcontent  */
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+.book-list {
+    margin-top: 30px;
+}
+/* Style the book items */
+.book-item {
+    background-color: #f9f9f9;
+    border: 5px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-width: 1000px;
+}
+
+
+.book-item p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+.rating {
+    display: none; 
+}
